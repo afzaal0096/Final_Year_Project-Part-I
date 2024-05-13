@@ -1,7 +1,7 @@
-import React from "react";
+import Discover from './Discover/Discover';
+import HelpCenter from './HelpCenter/HelpCenter';
+import Profile from './Profile/Profile';
+import Notification from './Notification/Notification';
+import SideBar from './SideBar/SideBar';
 
-const index = () => {
-  return <div></div>;
-};
-
-export default index;
+export { Discover, HelpCenter, Profile, Notification, SideBar };
